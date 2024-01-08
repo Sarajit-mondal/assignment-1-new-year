@@ -28,7 +28,7 @@ p {
   margin-bottom: 120px;
   background-image: url("../resources/Banner\ Image.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size: cover;
   width: 100%;
   height: 600px;
@@ -83,7 +83,7 @@ p {
 /* midnight section */
 .midnight-container {
   margin-bottom: 120px;
-  background-image: url("../resources/Banner\ Image.png");
+  background-image: url("../resources/cilibat.png");
   width: 100%;
   background-size: cover;
   display: flex;
@@ -312,13 +312,13 @@ p {
 }
 
 .portfoli-images {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   align-items: center;
-  justify-content: baseline space-between;
-  flex-wrap: wrap;
   gap: 24px;
 }
 .portfoli-images div img {
+  width: 100%;
   opacity: 90%;
   transition: scale 0.5s, opacity 0.5s;
 }
