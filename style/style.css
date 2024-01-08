@@ -311,3 +311,62 @@ p {
   grid-template-columns: auto auto auto;
   gap: 24px;
 }
+.portfoli-images div img {
+  opacity: 90%;
+  transition: scale 0.5s, opacity 0.5s;
+}
+.portfoli-images div img:hover {
+  scale: 1.11;
+  opacity: 100%;
+}
+
+/* subcribe section */
+.subcribe-container {
+  margin-bottom: 120px;
+  padding: 80px 0px;
+  text-align: center;
+}
+.subcribe-contain img {
+  margin-bottom: 40px;
+}
+.subcribe-contain > h1 {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+}
+.subcribe-contain > p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 890px;
+  margin: 10px auto 50px auto;
+}
+
+.form {
+  width: 50%;
+  margin: 0px auto;
+  border-radius: 50px;
+  overflow: hidden;
+  border: 0.1px solid black;
+}
+.form form {
+  display: flex;
+}
+.form input {
+  flex-grow: 1;
+  padding-left: 20px;
+  color: black;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  outline: none;
+  border: none;
+}
+.form input::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+}
+.form form > .btn {
+  border-radius: 0px;
+}
