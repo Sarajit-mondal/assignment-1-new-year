@@ -12,7 +12,6 @@ header,
 main {
   width: 70%;
   margin: 0px auto;
-  border: 2px solid black;
 }
 
 p {
@@ -25,7 +24,7 @@ p {
 
 /* top benner container */
 .benner-container {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 120px;
   background-image: url("../resources/Banner\ Image.png");
   background-repeat: no-repeat;
@@ -65,6 +64,7 @@ p {
   font-size: 88px;
   font-weight: 700;
   margin-bottom: 60px;
+  margin-top: 20px;
 }
 .categories-container p:nth-child(2) {
   color: #f00;
@@ -313,8 +313,9 @@ p {
 
 .portfoli-images {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 24px;
+  grid-template-columns: auto auto auto;
+  gap: 35px;
+  justify-items: center;
 }
 .portfoli-images div img {
   opacity: 90%;
