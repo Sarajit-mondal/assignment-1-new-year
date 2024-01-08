@@ -26,16 +26,11 @@ p {
 .benner-container {
   margin-top: 50px;
   margin-bottom: 120px;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.6),
-      rgba(128, 128, 128, 0.1)
-    ),
-    url("../resources/Banner\ Image.png");
+  background-image: url("../resources/Banner\ Image.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 800px;
+  height: 600px;
   width: 100%;
   border-radius: 16px;
   display: flex;
