@@ -312,10 +312,11 @@ p {
 }
 
 .portfoli-images {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 35px;
-  justify-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: baseline space-between;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .portfoli-images div img {
   opacity: 90%;
