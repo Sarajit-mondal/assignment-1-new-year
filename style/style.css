@@ -168,13 +168,32 @@ p {
   margin-bottom: 120px;
 }
 
-.coming-soon-left {
-  flex-basis: 30%;
+.coming-soon-bottom > * {
+  margin-bottom: 20px;
+}
+.coming-soon-left > * {
+  margin-bottom: 20px;
 }
 
-.coming-soon-center {
-  flex-basis: 30%;
+.coming-soon-left .coming-soon-offer {
+  color: #f00;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
 }
+.coming-soon-left > h1 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+.coming-soon-left > p:last-child {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  width: 390px;
+}
+
 .coming-soon-center .cricle {
   width: 463px;
   height: 463px;
@@ -184,11 +203,80 @@ p {
   background-color: #f00;
   border-radius: 50%;
 }
+
 .cricle img {
   border-radius: 50%;
   border: 30px solid #fff;
 }
 
-.coming-soon-bottom {
-  flex-basis: 30%;
+.coming-soon-bottom .year {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.coming-soon-bottom > p:nth-child(2) {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 276px;
+}
+
+/* holidays-discount-offer */
+.holidays-discount-offer {
+  margin-bottom: 120px;
+  text-align: center;
+}
+.discout-contain p:first-child {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+}
+.discout-contain h1 {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 20px;
+}
+.discout-contain h1 > span {
+  color: #f00;
+}
+.discout-contain p:last-child {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  width: 1050px;
+  margin-top: 20px;
+  margin-bottom: 64px;
+}
+
+/* discout-contain image position */
+.discount-images {
+  position: relative;
+  width: 100%;
+  height: 660px;
+}
+.rectangle-down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.surprise {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.shoping-img {
+  position: absolute;
+  bottom: 225px;
+  right: 0;
+}
+.discount {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
 }
