@@ -53,6 +53,7 @@ p {
   width: 630px;
   text-align: center;
 }
+/* top benner container end*/
 
 /* all categories section */
 .categories-container {
@@ -79,6 +80,7 @@ p {
   font-weight: 700;
   margin: 50px 0px;
 }
+/* all categories section end*/
 
 /* midnight section */
 .midnight-container {
@@ -107,7 +109,7 @@ p {
   line-height: 30px;
   margin-top: 30px;
   margin-bottom: 40px;
-  width: 690px;
+  max-width: 690px;
 }
 .btn {
   display: inline-flex;
@@ -131,6 +133,7 @@ p {
   background-color: rgb(206, 102, 102);
   color: #212024;
 }
+/* all categories section end*/
 
 /* place section */
 .place-container {
@@ -160,6 +163,7 @@ p {
 .place-contain > .btn {
   margin-top: 50px;
 }
+/* place section end*/
 
 /* coming soon section  */
 .coming-soon-container {
@@ -193,7 +197,7 @@ p {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  width: 390px;
+  max-width: 390px;
 }
 
 .coming-soon-center .cricle {
@@ -223,7 +227,9 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+  max-width: 270px;
 }
+/* coming soon section end */
 
 /* holidays-discount-offer */
 .holidays-discount-offer {
@@ -244,21 +250,22 @@ p {
 .discout-contain h1 > span {
   color: #f00;
 }
-.discout-contain p:last-child {
+.discout-contain > p:last-child {
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
   width: 1050px;
-  margin-top: 20px;
-  margin-bottom: 64px;
+  margin: 20px auto 64px auto;
+  text-align: center;
 }
+/* holidays-discount-offer end*/
 
 /* discout-contain image position */
 .discount-images {
   position: relative;
   width: 100%;
-  height: 660px;
+  min-height: 660px;
 }
 .rectangle-down {
   position: absolute;
@@ -285,6 +292,7 @@ p {
   left: 0;
   transform: translate(-50%, -50%);
 }
+/* discout-contain image position end*/
 
 /* Portfolio section */
 
@@ -323,9 +331,10 @@ p {
   transition: scale 0.5s, opacity 0.5s;
 }
 .portfoli-images div img:hover {
-  scale: 1.11;
+  scale: 105%;
   opacity: 100%;
 }
+/* Portfolio section end*/
 
 /* subcribe section */
 .subcribe-container {
@@ -377,6 +386,7 @@ p {
 .form form > .btn {
   border-radius: 0px;
 }
+/* subcribe section end*/
 
 /* footer section */
 footer {
