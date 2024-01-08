@@ -30,8 +30,8 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 600px;
   width: 100%;
+  height: 650px;
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -89,6 +89,7 @@ p {
   align-items: center;
   justify-content: space-around;
   border-radius: 10px;
+  padding: 60px 0px;
 }
 .midnight-container .midnight-title {
   width: 640px;
@@ -122,8 +123,40 @@ p {
   color: #fff;
   transition: background-color 0.5s, color 0.5s;
 }
-
+.midnight-contain > .btn {
+  margin-left: 50px;
+}
 .btn:active {
   background-color: rgb(206, 102, 102);
   color: #212024;
+}
+
+/* place section */
+.place-container {
+  padding: 100px 0px;
+  margin-bottom: 120px;
+
+  text-align: center;
+  background-color: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+.place-container .place-contain p {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.place-container .place-contain p > span {
+  color: #f00;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.place-contain > .btn {
+  margin-top: 50px;
 }
