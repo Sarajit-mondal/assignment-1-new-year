@@ -82,7 +82,7 @@ p {
 /* midnight section */
 .midnight-container {
   margin-bottom: 120px;
-  background-image: url("../resources/vectorrr.png");
+  background-image: url("../resources/vectorrr.PNG");
   width: 100%;
   background-size: cover;
   display: flex;
