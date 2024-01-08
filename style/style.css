@@ -82,7 +82,7 @@ p {
 /* midnight section */
 .midnight-container {
   margin-bottom: 120px;
-  background-image: url("/resources/Vectorrr.png");
+  background-image: url("../resources/vectorrr.png");
   width: 100%;
   background-size: cover;
   display: flex;
@@ -183,6 +183,10 @@ p {
   justify-content: center;
   background-color: #f00;
   border-radius: 50%;
+}
+.cricle img {
+  border-radius: 50%;
+  border: 30px solid #fff;
 }
 
 .coming-soon-bottom {
