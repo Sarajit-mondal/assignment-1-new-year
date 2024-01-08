@@ -10,8 +10,9 @@
 }
 header,
 main {
-  width: 80%;
+  width: 70%;
   margin: 0px auto;
+  border: 2px solid black;
 }
 
 p {
@@ -263,16 +264,20 @@ p {
   position: absolute;
   bottom: 0;
   left: 0;
+  width: 100%;
+  z-index: 1;
 }
 .surprise {
   position: absolute;
   bottom: 0px;
   left: 0px;
+  z-index: 1;
 }
 .shoping-img {
   position: absolute;
   bottom: 225px;
   right: 0;
+  z-index: 0;
 }
 .discount {
   position: absolute;
@@ -308,7 +313,7 @@ p {
 
 .portfoli-images {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
 }
 .portfoli-images div img {
@@ -369,4 +374,46 @@ p {
 }
 .form form > .btn {
   border-radius: 0px;
+}
+
+/* footer section */
+footer {
+  background-color: #070211;
+}
+
+.footer-container {
+  width: 70%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  text-align: center;
+}
+.footer-container > div,
+hr {
+  margin-bottom: 50px;
+}
+.footer-container p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-container > hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.footer-top,
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-left p {
+  width: 376px;
+}
+.footer-right p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
