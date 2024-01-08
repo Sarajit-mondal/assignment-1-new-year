@@ -167,9 +167,10 @@ p {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 120px;
+  gap: 100px;
 }
 
-.coming-soon-bottom > * {
+.coming-soon-right > * {
   margin-bottom: 20px;
 }
 .coming-soon-left > * {
@@ -216,13 +217,12 @@ p {
   font-weight: 700;
 }
 
-.coming-soon-bottom > p:nth-child(2) {
+.coming-soon-right > p:nth-child(2) {
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  width: 276px;
 }
 
 /* holidays-discount-offer */
